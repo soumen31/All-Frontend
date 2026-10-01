@@ -2,6 +2,7 @@ import Greeting from './components/single-component/Greeting'
 import Header from './components/multiple-component/Header/Header'
 import Footer from './components/multiple-component/Footer/Footer'
 import JSXExample from './components/JSXExample/JSXExample'
+import ConditionalRendering from './components/Conditional-Rendering/ConditionalRendering'
 
 import './App.css'
 
@@ -14,6 +15,7 @@ function App() {
       <main className="main-content">
         <Greeting />
         <JSXExample />
+        <ConditionalRendering />
       </main>
       <Footer />
     </div>
